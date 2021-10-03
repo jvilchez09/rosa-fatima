@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "edwardian";
+  src: local("edwardian"),
+    url(../fonts/edwardian-script-itc-bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "trajan";
+  src: local("trajan"), url(../fonts/Trajan-Pro-Regular.ttf) format("truetype");
+}
+
+.font-edwardian {
+  font-family: "edwardian";
+}
+
+.font-trajan {
+  font-family: "trajan";
+}
+
+.font-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.font-title-bigger {
+  font-size: 75px;
+}
