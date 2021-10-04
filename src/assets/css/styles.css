@@ -9,6 +9,27 @@
   src: local("trajan"), url(../fonts/Trajan-Pro-Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "BirthstoneBounce";
+  src: local("BirthstoneBounce"),
+    url(../fonts/BirthstoneBounce-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NanumMyeongjo";
+  src: local("NanumMyeongjo"),
+    url(../fonts/NanumMyeongjo-Bold.ttf) format("truetype");
+}
+
+body,
+.v-application {
+  font-family: "trajan";
+}
+
+.font-BirthstoneBounce {
+  font-family: "BirthstoneBounce";
+}
+
 .font-edwardian {
   font-family: "edwardian";
 }
@@ -24,4 +45,9 @@
 
 .font-title-bigger {
   font-size: 75px;
+}
+
+.font-title-smaller {
+  font-size: 35px;
+  line-height: 50px;
 }
