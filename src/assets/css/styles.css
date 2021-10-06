@@ -3,6 +3,10 @@
   src: local("edwardian"),
     url(../fonts/edwardian-script-itc-bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Ephesis";
+  src: local("Ephesis"), url(../fonts/Ephesis-Regular.ttf) format("truetype");
+}
 
 @font-face {
   font-family: "trajan";
@@ -21,6 +25,13 @@
     url(../fonts/NanumMyeongjo-Bold.ttf) format("truetype");
 }
 
+/* body,
+.v-application,
+#app {
+  font-family: "trajan";
+  background-image: url("../images/sky.jpg");
+} */
+
 body,
 .v-application {
   font-family: "trajan";
@@ -34,17 +45,21 @@ body,
   font-family: "edwardian";
 }
 
+.font-ephesis {
+  font-family: "Ephesis";
+}
+
 .font-trajan {
   font-family: "trajan";
 }
 
 .font-title {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 50px;
 }
 
 .font-title-bigger {
-  font-size: 75px;
+  font-size: 70px;
 }
 
 .font-title-smaller {
